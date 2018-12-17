@@ -29,4 +29,3 @@ function loadtoc(t){function e(){if("entry"in t.feed){var e=t.feed.entry.length;
 //]]>
 </script>
 <script src="/feeds/posts/summary?alt=json-in-script&amp;max-results=500&amp;callback=loadtoc" type="text/javascript"></script>
-</div>
