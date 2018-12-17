@@ -1,7 +1,3 @@
-<div id="bp_toc">
-Loading TOC. Please wait....</div>
-<script src="https://cdn.rawgit.com/Arlina-Design/redvision/master/daftar-isi-simple.js" type="text/javascript"></script> <script src="/feeds/posts/summary?alt=json-in-script&amp;max-results=9999&amp;callback=loadtoc" type="text/javascript"></script>
-<style scoped="" type="text/css">
 #comments,#Label1,#FollowByEmail1 {display:none;}
 #HTML3 {visibility:hidden;}
 /* CSS Full Sitemap */
