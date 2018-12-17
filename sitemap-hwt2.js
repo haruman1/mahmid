@@ -1,6 +1,3 @@
-<div class="post-body entry-content gmr-item-post">
-<div id="bp_toc">
-Loading TOC. Please wait....</div>
 <script type="text/javascript">
 //<![CDATA[
    var postTitle = new Array();     // array of posttitles
@@ -31,7 +28,4 @@ function loadtoc(t){function e(){if("entry"in t.feed){var e=t.feed.entry.length;
 ",e==postTitle.length)var c='<span class="toc-note">Displaying all '+postTitle.length+" posts<br/></span>";else{var c='<span class="toc-note">Displaying '+e+" posts labeled '";c+=postFilter+"' of "+postTitle.length+" posts total<br/></span>"}tocdiv.innerHTML=c+s}function toggleTitleSort(){sortBy="titleasc"==sortBy?"titledesc":"titleasc",sortPosts(sortBy),displayToc(postFilter)}function toggleDateSort(){sortBy="datenewest"==sortBy?"dateoldest":"datenewest",sortPosts(sortBy),displayToc(postFilter)}function showToc(){if(tocLoaded){displayToc(postFilter);document.getElementById("toclink")}else alert("Just wait... TOC is loading")}function hideToc(){var t=document.getElementById("toc");t.innerHTML="";var e=document.getElementById("toclink");e.innerHTML='<a href="#" onclick="scroll(0,0); showToc(); Effect.toggle(\'toc-result\',\'blind\');">» Show Table of Contents</a> <span style="font-size:11px;color:red;">Terbaru!</span>'}var postTitle=new Array,postUrl=new Array,postDate=new Array,postSum=new Array,postLabels=new Array,sortBy="datenewest",tocLoaded=!1,numChars=250,postFilter="",tocdiv=document.getElementById("bp_toc"),totalEntires=0,totalPosts=0;
 //]]>
 </script>
- 
 <script src="/feeds/posts/summary?alt=json-in-script&amp;max-results=500&amp;callback=loadtoc" type="text/javascript"></script>
-</div>
-<!--Can't find substitution for tag [adEnd]-->
